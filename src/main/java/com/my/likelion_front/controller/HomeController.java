@@ -17,5 +17,11 @@ public class HomeController {
 		
 		return "login";
 	}
+	
+	@GetMapping("/ic")
+	public String ic() {
+		
+		return "id-class";
+	}
 
 }
